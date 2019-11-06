@@ -11,3 +11,9 @@ List input rulles:
 ```sh
 $ iptables -L INPUT -v -n
 ```
+vim /etc/fail2ban/fail2ban.conf
+vim /etc/fail2ban/jail.conf
+ittables -L
+iptables -L
+cat /etc/denyhosts.conf
+cat /etc/hosts.deny
