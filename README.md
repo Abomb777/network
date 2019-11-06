@@ -6,3 +6,8 @@ Disable or enable ipV6:
 ```sh
 $ sysctl -w net.ipv6.conf.all.disable_ipv6=1
 ```
+##Fail2Ban
+List input rulles:
+```sh
+$ iptables -L INPUT -v -n
+```
